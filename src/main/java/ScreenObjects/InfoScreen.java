@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InfoScreen extends BaseTest {
 
-    InfoScreenFactory infoScreenFactory = new InfoScreenFactory();
+    private InfoScreenFactory infoScreenFactory = new InfoScreenFactory();
 
     public InfoScreen() {
         PageFactory.initElements(new AppiumFieldDecorator(driver), infoScreenFactory);

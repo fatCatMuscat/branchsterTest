@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CustomizeScreen extends BaseTest {
 
-    CustomizeScreenFactory customizeScreenFactory =
+    private CustomizeScreenFactory customizeScreenFactory =
             new CustomizeScreenFactory();
 
     public CustomizeScreen() {

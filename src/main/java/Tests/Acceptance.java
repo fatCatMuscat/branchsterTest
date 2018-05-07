@@ -6,12 +6,13 @@ import ScreenObjects.InfoScreen;
 import ScreenObjects.OverviewScreen;
 import Utils.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class Acceptance extends BaseTest {
 
     // 1 - Verify that 'Overview' screen opens when 'Done' button gets pushed;
-    @Test
+    @Test(groups = "Acceptance")
     public void clickDoneVerifyOverviewScreenOpens() {
         CustomizeScreen customizeScreen = new CustomizeScreen();
         OverviewScreen overviewScreen =  customizeScreen.clickDone();
@@ -19,7 +20,7 @@ public class Acceptance extends BaseTest {
     }
 
     // 2 - Verify that 'Customize' screen opens when 'change' button gets pushed;
-    @Test
+    @Test(groups = "Acceptance")
     public void clickChangeVerifyCustomizeScreenOpens() {
         OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
         CustomizeScreen customizeScreen = overviewScreen.clickChange();
@@ -27,7 +28,7 @@ public class Acceptance extends BaseTest {
     }
 
     // 3 - Verify that 'Info' screen opens when 'Info' button gets pushed;
-    @Test
+    @Test(groups = "Acceptance")
     public void clickInfoVerifyInfoScreenOpens() {
         OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
         InfoScreen infoScreen = overviewScreen.clickInfo();
@@ -37,7 +38,7 @@ public class Acceptance extends BaseTest {
 
     // 4 - Verify that when user doesn't customize name and just taps 'done'
     // default name value "Bingles Jingleheimer" is displayed on the 'Overview' screen of the app;
-    @Test
+    @Test(groups = "Acceptance")
     public void defaultNameIsDisplayed() {
         OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
         Assert.assertTrue(overviewScreen.getNameText().equals("Bingles Jingleheimer"));
@@ -45,9 +46,18 @@ public class Acceptance extends BaseTest {
 
     //Verify that after customizing monster's name and tapping 'Done' the chosen name
     // is displayed on the 'Overview' screen of the app;
-    @Test
-    public void changedNamePassedToOverviewScreen() {
-        String name = "Filipp Kirkorov";
+
+    @DataProvider(name = "monsterNamesProvider")
+    public Object[][] getMonsterName() {
+        return new Object[][] {
+                {"Tronald Dump", "Snickerdoodle"},
+                {"p300~~", "¯\\_(ツ)_/¯"},
+        };
+    }
+
+    @Test (dataProvider = "monsterNamesProvider", groups = "Acceptance")
+    public void changedNamePassedToOverviewScreen(String[] monsterName) {
+        String name = monsterName[0];
         CustomizeScreen customizeScreen = new CustomizeScreen();
         customizeScreen.setName(name);
         OverviewScreen overviewScreen = customizeScreen.clickDone();
@@ -55,7 +65,7 @@ public class Acceptance extends BaseTest {
     }
 
     //Verify that monster name appears in monster's bio on 'Overview' screen;
-    @Test
+    @Test(groups = "Acceptance")
     public void nameIsDisplayedInBio() {
         String name = "Nick Cage";
         CustomizeScreen customizeScreen = new CustomizeScreen();
@@ -65,7 +75,7 @@ public class Acceptance extends BaseTest {
     }
 
     //Verify that Android share menu rolls up when 'share' button on the 'overview' screen gets pushed
-    @Test
+    @Test(groups = "Acceptance")
     public void shareMenuDisplayed() {
         OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
         AndroidShareScreen androidShareScreen = overviewScreen.clickShareButton();

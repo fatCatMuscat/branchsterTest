@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0073c251-2a60-47c6-aec6-6ff44ff72536" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" afterPath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" afterPath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
     </list>
@@ -36,7 +34,7 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
+            <state relative-caret-position="-218">
               <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,8 +50,8 @@
       <file leaf-file-name="Acceptance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,12 +62,36 @@
       <file leaf-file-name="AndroidShareScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#752#775#0" expanded="true" />
+                <element signature="e#760#783#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverviewScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,8 +99,8 @@
       <file leaf-file-name="AndroidShareScreenFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +121,8 @@
       <file leaf-file-name="InfoScreenFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,12 +133,12 @@
       <file leaf-file-name="CustomizeScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,6 +160,8 @@
       <find>install</find>
       <find>activity</find>
       <find>Vlad</find>
+      <find>CustomizeScreen</find>
+      <find>defaultNameIsDisplayed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,12 +184,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Tests/AcceptanceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/OverviewScreenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
       </list>
     </option>
@@ -571,9 +595,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 19h 45m 36s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 19h 55m 43s.xml">
       <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
@@ -593,6 +614,9 @@
       <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 18m 30s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 21m 08s.xml">
       <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Acceptance_test - 2018.05.06 at 19h 48m 34s.xml">
@@ -617,7 +641,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25300092" sideWeight="0.49779007" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29083666" sideWeight="0.49337018" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29083666" sideWeight="0.49337018" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,8 +705,8 @@
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,8 +767,8 @@
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,19 +849,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="169">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
+        <state relative-caret-position="-218">
           <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -849,29 +873,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#783#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -883,52 +934,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#775#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

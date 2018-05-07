@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OverviewScreen extends BaseTest {
 
-    OverviewScreenFactory overviewScreenFactory = new OverviewScreenFactory();
+    private OverviewScreenFactory overviewScreenFactory = new OverviewScreenFactory();
 
     public OverviewScreen() {
         PageFactory.initElements(new AppiumFieldDecorator(driver), overviewScreenFactory);

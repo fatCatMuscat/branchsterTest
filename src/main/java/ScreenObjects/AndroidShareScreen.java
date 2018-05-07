@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 public class AndroidShareScreen extends BaseTest {
 
-    AndroidShareScreenFactory androidShareScreenFactory = new AndroidShareScreenFactory();
+    private AndroidShareScreenFactory androidShareScreenFactory = new AndroidShareScreenFactory();
 
     public AndroidShareScreen() {
         PageFactory.initElements(new AppiumFieldDecorator(driver), androidShareScreenFactory);
