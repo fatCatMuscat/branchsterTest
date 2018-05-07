@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0073c251-2a60-47c6-aec6-6ff44ff72536" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptanceGroup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/AndroidShareScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/AndroidShareScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/InfoScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/InfoScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" afterPath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" afterPath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +21,8 @@
       <file leaf-file-name="Acceptance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,8 +33,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +66,7 @@
       <file leaf-file-name="InfoScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="315">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -175,14 +171,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Tests/AcceptanceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/OverviewScreenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
         <option value="$PROJECT_DIR$/acceptanceGroup.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
       </list>
     </option>
   </component>
@@ -581,21 +577,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 12m 07s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 14m 04s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 16m 23s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 18m 30s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 21m 08s.xml">
-      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Acceptance_test - 2018.05.06 at 19h 51m 28s.xml">
       <configuration name="Acceptance.test" configurationId="TestNG" />
     </history-entry>
@@ -606,6 +587,21 @@
       <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 10h 10m 08s.xml">
+      <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 13h 43m 22s.xml">
+      <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 13h 45m 57s.xml">
+      <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 13h 52m 16s.xml">
+      <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 13h 56m 27s.xml">
+      <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_arsenal_my_repos_branchsterTest_acceptanceGroup_xml - 2018.05.07 at 14h 00m 58s.xml">
       <configuration name="/Users/arsenal/my_repos/branchsterTest/acceptanceGroup.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_arsenal_my_repos_branchsterTest_target_acceptanceGroup_xml - 2018.05.06 at 21h 02m 31s.xml">
@@ -627,13 +623,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25300092" sideWeight="0.49779007" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29083666" sideWeight="0.49337018" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29083666" sideWeight="0.49337018" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29083666" sideWeight="0.5066298" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5822604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="510" y="117" width="814" height="753" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5822604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="485" y="72" width="814" height="753" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4741036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -762,7 +758,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,7 +990,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1038,16 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1066,14 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acceptanceGroup.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1082,10 +1060,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

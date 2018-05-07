@@ -51,8 +51,8 @@ public class Acceptance extends BaseTest {
     @DataProvider(name = "monsterNamesProvider")
     public Object[][] getMonsterName() {
         return new Object[][] {
-                {"Tronald Dump", "Snickerdoodle"},
-                {"p300~~", "¯\\_(ツ)_/¯"},
+                {"Tronald Dump"}, {"snickerD00DLE"},
+                {"¯\\_(ツ)_/¯"}
         };
     }
 
@@ -66,9 +66,9 @@ public class Acceptance extends BaseTest {
     }
 
     //Verify that monster name appears in monster's bio on 'Overview' screen;
-    @Test(groups = "acceptance")
-    public void nameIsDisplayedInBio() {
-        String name = "Nick Cage";
+    @Test (dataProvider = "monsterNamesProvider", groups = "acceptance")
+    public void nameIsDisplayedInBio(String[] monsterName) {
+        String name = monsterName[0];
         CustomizeScreen customizeScreen = new CustomizeScreen();
         customizeScreen.setName(name);
         OverviewScreen overviewScreen = customizeScreen.clickDone();
