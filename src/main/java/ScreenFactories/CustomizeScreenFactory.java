@@ -5,10 +5,10 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 import java.util.List;
 
-public class CustomizeBranchsterScreenFactory {
+public class CustomizeScreenFactory {
 
     @AndroidFindBy(id = "io.branch.branchster:id/editName")
-    public MobileElement pickANameTextField;
+    public MobileElement nameTextField;
 
     @AndroidFindBy(id = "io.branch.branchster:id/cmdDone")
     public MobileElement doneButton;

@@ -30,6 +30,10 @@ public class BaseTest {
         }
     }
 
+    protected boolean elementIsDisplayed(MobileElement mobileElement) {
+        return mobileElement.isDisplayed();
+    }
+
     protected void waitForElementToLoad(MobileElement id) {
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.elementToBeClickable(id));
@@ -45,6 +49,19 @@ public class BaseTest {
         process.waitFor();
         Process process2 = Runtime.getRuntime().exec("adb uninstall io.appium.uiautomator2.server.test");
         process2.waitFor();
+    }
+
+    public void switchToWebViewContext() {
+        for (Object contextName: driver.getContextHandles()) {
+            if (contextName.toString().toUpperCase().contains("WEBVIEW")) {
+                driver.context(contextName.toString());
+                System.out.println("Switched to WebView context");
+            }
+        }
+    }
+
+    public void switchToNativeContext() {
+        driver.context("NATIVE_APP");
     }
 
     @BeforeSuite(alwaysRun = true)
