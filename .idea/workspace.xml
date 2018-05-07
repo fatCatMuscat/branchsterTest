@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0073c251-2a60-47c6-aec6-6ff44ff72536" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/OverviewScreenFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Tests/CustomizationFlow.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ScreenFactories/CustomizeBranchsterScreenFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/CustomizeScreenFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeBranchsterScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Tests/CustomizationFlow.java" afterPath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/BaseTest.class" afterPath="$PROJECT_DIR$/target/classes/Utils/BaseTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/CustomizeScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" afterPath="$PROJECT_DIR$/target/classes/ScreenObjects/OverviewScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" afterPath="$PROJECT_DIR$/target/classes/Tests/Acceptance.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" afterPath="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+            <state relative-caret-position="1139">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1140#1141#0" expanded="true" />
@@ -55,8 +52,33 @@
       <file leaf-file-name="Acceptance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidShareScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#752#775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidShareScreenFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,35 +92,6 @@
             <state relative-caret-position="399">
               <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OverviewScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +111,8 @@
       <file leaf-file-name="CustomizeScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="366">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
@@ -166,11 +159,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeBranchsterScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/AcceptanceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/OverviewScreenFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/InfoScreenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/InfoScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/Acceptance.java" />
       </list>
     </option>
@@ -304,8 +299,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Acceptance.defaultNameIsDisplayed">
-    <configuration name="Acceptance.clickChangeVerifyCustomizeScreenOpens" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Acceptance.shareMenuDisplayed">
+    <configuration name="Acceptance.changedNamePassedToOverviewScreen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -318,71 +313,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
-      <option name="METHOD_NAME" value="clickChangeVerifyCustomizeScreenOpens" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Acceptance.clickGoToBranchVerifyInfoScreenIsNotDisplayed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="branchsterTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
-      <option name="METHOD_NAME" value="clickGoToBranchVerifyInfoScreenIsNotDisplayed" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Acceptance.clickInfoVerifyInfoScreenOpens" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="branchsterTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
-      <option name="METHOD_NAME" value="clickInfoVerifyInfoScreenOpens" />
+      <option name="METHOD_NAME" value="changedNamePassedToOverviewScreen" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -415,6 +346,70 @@
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
       <option name="METHOD_NAME" value="defaultNameIsDisplayed" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Acceptance.nameIsDisplayedInBio" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="branchsterTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
+      <option name="METHOD_NAME" value="nameIsDisplayedInBio" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Acceptance.shareMenuDisplayed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="branchsterTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Acceptance" />
+      <option name="METHOD_NAME" value="shareMenuDisplayed" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -546,19 +541,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Acceptance.clickChangeVerifyCustomizeScreenOpens" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Acceptance.clickInfoVerifyInfoScreenOpens" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Acceptance.clickGoToBranchVerifyInfoScreenIsNotDisplayed" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Acceptance.test" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Acceptance.defaultNameIsDisplayed" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.Acceptance.defaultNameIsDisplayed" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Acceptance.changedNamePassedToOverviewScreen" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Acceptance.nameIsDisplayedInBio" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Acceptance.shareMenuDisplayed" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Acceptance.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Acceptance.defaultNameIsDisplayed" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.Acceptance.clickGoToBranchVerifyInfoScreenIsNotDisplayed" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Acceptance.test" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Acceptance.clickInfoVerifyInfoScreenOpens" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Acceptance.clickChangeVerifyCustomizeScreenOpens" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Acceptance.shareMenuDisplayed" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Acceptance.test" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Acceptance.nameIsDisplayedInBio" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Acceptance.changedNamePassedToOverviewScreen" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Acceptance.defaultNameIsDisplayed" />
       </list>
     </recent_temporary>
   </component>
@@ -576,34 +571,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Acceptance_clickGoToBranchVerifyInfoScreenIsNotDisplayed - 2018.05.06 at 16h 40m 49s.xml">
-      <configuration name="Acceptance.clickGoToBranchVerifyInfoScreenIsNotDisplayed" configurationId="TestNG" />
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 19h 45m 36s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Acceptance_clickGoToBranchVerifyInfoScreenIsNotDisplayed - 2018.05.06 at 18h 15m 17s.xml">
-      <configuration name="Acceptance.clickGoToBranchVerifyInfoScreenIsNotDisplayed" configurationId="TestNG" />
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 19h 55m 43s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Acceptance_defaultNameIsDisplayed - 2018.05.06 at 18h 29m 27s.xml">
-      <configuration name="Acceptance.defaultNameIsDisplayed" configurationId="TestNG" />
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 19h 57m 27s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 07m 10s.xml">
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 10m 36s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 12m 07s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 14m 04s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 16m 23s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_shareMenuDisplayed - 2018.05.06 at 20h 18m 30s.xml">
+      <configuration name="Acceptance.shareMenuDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Acceptance_test - 2018.05.06 at 19h 48m 34s.xml">
       <configuration name="Acceptance.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 08m 06s.xml">
-      <configuration name="Acceptance.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 36m 37s.xml">
-      <configuration name="Acceptance.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 38m 31s.xml">
-      <configuration name="Acceptance.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 44m 18s.xml">
-      <configuration name="Acceptance.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 48m 18s.xml">
-      <configuration name="Acceptance.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Acceptance_test - 2018.05.06 at 16h 58m 23s.xml">
+    <history-entry file="Acceptance_test - 2018.05.06 at 19h 51m 28s.xml">
       <configuration name="Acceptance.test" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -629,7 +624,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29083666" sideWeight="0.5066298" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5822604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5822604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="510" y="117" width="814" height="753" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4741036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,7 +648,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -840,10 +835,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/CustomizeScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="366">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
@@ -866,20 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/OverviewScreenFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -890,19 +885,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/OverviewScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="496">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenFactories/AndroidShareScreenFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenObjects/AndroidShareScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#752#775#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/Acceptance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

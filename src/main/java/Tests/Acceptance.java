@@ -1,5 +1,6 @@
 package Tests;
 
+import ScreenObjects.AndroidShareScreen;
 import ScreenObjects.CustomizeScreen;
 import ScreenObjects.InfoScreen;
 import ScreenObjects.OverviewScreen;
@@ -39,27 +40,37 @@ public class Acceptance extends BaseTest {
     @Test
     public void defaultNameIsDisplayed() {
         OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
-        Assert.assertTrue(overviewScreen.getName().equals("Bingles Jingleheimer"));
+        Assert.assertTrue(overviewScreen.getNameText().equals("Bingles Jingleheimer"));
     }
 
     //Verify that after customizing monster's name and tapping 'Done' the chosen name
     // is displayed on the 'Overview' screen of the app;
     @Test
     public void changedNamePassedToOverviewScreen() {
-        OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
-        overviewScreen.
+        String name = "Filipp Kirkorov";
+        CustomizeScreen customizeScreen = new CustomizeScreen();
+        customizeScreen.setName(name);
+        OverviewScreen overviewScreen = customizeScreen.clickDone();
+        Assert.assertEquals(overviewScreen.getNameText(), name);
     }
 
-
-
-
+    //Verify that monster name appears in monster's bio on 'Overview' screen;
     @Test
-    public void test() {
-        System.out.println("Vlad" + driver.getContext());
-        System.out.println("Vlad" + driver.getContext());
-        switchToNativeContext();
-        System.out.println("Vlad" + driver.getContext());
-
+    public void nameIsDisplayedInBio() {
+        String name = "Nick Cage";
+        CustomizeScreen customizeScreen = new CustomizeScreen();
+        customizeScreen.setName(name);
+        OverviewScreen overviewScreen = customizeScreen.clickDone();
+        Assert.assertTrue(overviewScreen.bioContainsName(name));
     }
+
+    //Verify that Android share menu rolls up when 'share' button on the 'overview' screen gets pushed
+    @Test
+    public void shareMenuDisplayed() {
+        OverviewScreen overviewScreen = new CustomizeScreen().clickDone();
+        AndroidShareScreen androidShareScreen = overviewScreen.clickShareButton();
+        Assert.assertTrue(androidShareScreen.shareOptionIsDisplayed("Post on reddit"));
+    }
+
 
 }

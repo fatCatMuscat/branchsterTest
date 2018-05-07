@@ -28,8 +28,18 @@ public class OverviewScreen extends BaseTest {
         return new InfoScreen();
     }
 
-    public String getName() {
+    public String getNameText() {
         return overviewScreenFactory.nameText.getText();
+    }
+
+    public boolean bioContainsName(String name) {
+        String bio = overviewScreenFactory.descriprionText.getText();
+        return  bio.contains(name);
+    }
+
+    public AndroidShareScreen clickShareButton() {
+        overviewScreenFactory.shareButton.click();
+        return new AndroidShareScreen();
     }
 
 }

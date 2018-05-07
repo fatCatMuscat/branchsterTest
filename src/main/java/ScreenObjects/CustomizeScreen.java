@@ -24,5 +24,11 @@ public class CustomizeScreen extends BaseTest {
         return customizeScreenFactory.doneButton.isDisplayed();
     }
 
+    public void setName(String name) {
+        customizeScreenFactory.nameTextField.clear();
+        customizeScreenFactory.nameTextField.sendKeys(name);
+        driver.hideKeyboard();
+    }
+
 
 }
