@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Acceptance Suite" duration-ms="148236" started-at="2018-05-08T01:03:01Z" finished-at="2018-05-08T01:05:29Z">
+    <groups>
+      <group name="acceptance">
+        <method signature="Acceptance.changedNamePassedToOverviewScreen([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="changedNamePassedToOverviewScreen" class="Tests.Acceptance"/>
+        <method signature="Acceptance.clickChangeVerifyCustomizeScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickChangeVerifyCustomizeScreenOpens" class="Tests.Acceptance"/>
+        <method signature="Acceptance.clickDoneVerifyOverviewScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickDoneVerifyOverviewScreenOpens" class="Tests.Acceptance"/>
+        <method signature="Acceptance.clickInfoVerifyInfoScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickInfoVerifyInfoScreenOpens" class="Tests.Acceptance"/>
+        <method signature="Acceptance.defaultNameIsDisplayed()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="defaultNameIsDisplayed" class="Tests.Acceptance"/>
+        <method signature="Acceptance.nameIsDisplayedInBio([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="nameIsDisplayedInBio" class="Tests.Acceptance"/>
+        <method signature="Acceptance.shareMenuDisplayed()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="shareMenuDisplayed" class="Tests.Acceptance"/>
+      </group> <!-- acceptance -->
+    </groups>
+    <test name="Acceptance" duration-ms="148236" started-at="2018-05-08T01:03:01Z" finished-at="2018-05-08T01:05:29Z">
+      <class name="Tests.Acceptance">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="setUp" is-config="true" duration-ms="40714" started-at="2018-05-07T18:02:20Z" finished-at="2018-05-07T18:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="changedNamePassedToOverviewScreen([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="changedNamePassedToOverviewScreen" duration-ms="5724" started-at="2018-05-07T18:03:01Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3b5fad2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changedNamePassedToOverviewScreen -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9198" started-at="2018-05-07T18:03:07Z" finished-at="2018-05-07T18:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="changedNamePassedToOverviewScreen([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="changedNamePassedToOverviewScreen" duration-ms="5732" started-at="2018-05-07T18:03:16Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5e17553a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changedNamePassedToOverviewScreen -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9145" started-at="2018-05-07T18:03:22Z" finished-at="2018-05-07T18:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="changedNamePassedToOverviewScreen([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="changedNamePassedToOverviewScreen" duration-ms="5772" started-at="2018-05-07T18:03:31Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3eb91815]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changedNamePassedToOverviewScreen -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9248" started-at="2018-05-07T18:03:36Z" finished-at="2018-05-07T18:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="clickChangeVerifyCustomizeScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickChangeVerifyCustomizeScreenOpens" duration-ms="2983" started-at="2018-05-07T18:03:46Z" finished-at="2018-05-07T18:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickChangeVerifyCustomizeScreenOpens -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9184" started-at="2018-05-07T18:03:49Z" finished-at="2018-05-07T18:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="clickDoneVerifyOverviewScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickDoneVerifyOverviewScreenOpens" duration-ms="1902" started-at="2018-05-07T18:03:58Z" finished-at="2018-05-07T18:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDoneVerifyOverviewScreenOpens -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9221" started-at="2018-05-07T18:04:00Z" finished-at="2018-05-07T18:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="clickInfoVerifyInfoScreenOpens()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="clickInfoVerifyInfoScreenOpens" duration-ms="3037" started-at="2018-05-07T18:04:09Z" finished-at="2018-05-07T18:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInfoVerifyInfoScreenOpens -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9116" started-at="2018-05-07T18:04:12Z" finished-at="2018-05-07T18:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="defaultNameIsDisplayed()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="defaultNameIsDisplayed" duration-ms="1896" started-at="2018-05-07T18:04:21Z" finished-at="2018-05-07T18:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultNameIsDisplayed -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9217" started-at="2018-05-07T18:04:23Z" finished-at="2018-05-07T18:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="nameIsDisplayedInBio([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="nameIsDisplayedInBio" duration-ms="5381" started-at="2018-05-07T18:04:32Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@56dc1551]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameIsDisplayedInBio -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9233" started-at="2018-05-07T18:04:38Z" finished-at="2018-05-07T18:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="nameIsDisplayedInBio([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="nameIsDisplayedInBio" duration-ms="5472" started-at="2018-05-07T18:04:47Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:04:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@102cec62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameIsDisplayedInBio -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9277" started-at="2018-05-07T18:04:52Z" finished-at="2018-05-07T18:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="nameIsDisplayedInBio([Ljava.lang.String;)[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="nameIsDisplayedInBio" duration-ms="5398" started-at="2018-05-07T18:05:02Z" data-provider="monsterNamesProvider" finished-at="2018-05-07T18:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@74f6c5d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameIsDisplayedInBio -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9235" started-at="2018-05-07T18:05:07Z" finished-at="2018-05-07T18:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="shareMenuDisplayed()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="shareMenuDisplayed" duration-ms="3450" started-at="2018-05-07T18:05:16Z" finished-at="2018-05-07T18:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareMenuDisplayed -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.Acceptance@7ac7a4e4]" name="afterEachTest" is-config="true" duration-ms="9372" started-at="2018-05-07T18:05:20Z" finished-at="2018-05-07T18:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- Tests.Acceptance -->
+    </test> <!-- Acceptance -->
+  </suite> <!-- Acceptance Suite -->
+</testng-results>
